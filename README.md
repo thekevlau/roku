@@ -7,7 +7,7 @@ Doing each of these things optimally requires intense focus and cognitive effort
 In practice, most of our focus is spent on the immediate vagaries of every day life, on a very micro level.
 Thus, many of the macro-level thoughts -- philosphical realizations, ideas about how to grow as an individual, theories about how to improve -- are forgotten, lost, and not implemented.
 
-Project Roku is a service that remembers these thoughts for the indivudal and sends them regular text message reminders in order to keep them top-of-mind for the individual.
+Project Roku is a service that remembers these thoughts for the individual and sends them regular text message reminders in order to keep them top-of-mind for the individual.
 
 *This project is named for Avatar Roku, the wise mentor and advisor to Avatar Aang. Aang would often go to Roku for advice during times of distress or uncertainty.
 However in the avatar universe, Aang is Roku's reincarnation, thus Roku is just helping Aang remember what he really already knows and realized in the past (from his previous life).*
@@ -37,8 +37,14 @@ python send_sms.py
 ---
 
 #### Contributing
+
+##### Code Contributions
 Feel free to push directly to master **when editting your individual quote file**.
 Otherwise, please submit pull requests so that I can review before merging. This is mainly for code-review and learning purposes.
 
+##### Code Style Guide
+The project is currently 100% python and I have taken care to adhere very stringently to python's pep8 guidelines. Please do the same!
+
+##### General Feedback
 I'm very interested in any good-programming-practice suggestions or product feedback or architectural design feedback you might have!
 You are more than welcome to open an issue, submit a pull request or send me a message, any time!
