@@ -28,7 +28,8 @@ Activate the Python Virtual Environment for dependency/python package management
 source roku/bin/activate
 ```
 
-Run the script:
+Run the script :
+**Be careful though, each time you run it, all our users get a round of text messages! If only testing, be sure to comment out the texting part of the code before running it!**
 ```
 python send_sms.py
 ```
