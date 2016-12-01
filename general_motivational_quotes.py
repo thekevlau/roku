@@ -1,0 +1,55 @@
+general_messages = [
+    # Reminders for Key Life Lessons
+    "It is important to regularly stop, re-orient and re-focus on one's goals. This is how one achieves long term focus.",
+    "Discipline opens the doors to infinite possibilities. Stay sharp.",
+    "You can learn anything. You were built for it!",
+    "Devote yourself to the perfection of today's tasks.",
+    "The ability to focus is what differentiates the top 1%",
+    "You don't rise to the level of your hopes, you fall to the level your training",
+    "Always be the weakest person in the room and focus on sponging from everyone else. Revel in your failure as it is the symptom of growth.",
+    "To be able to endure the pain of being a repeated failure is not strength. To be strong is when you are able to achieve success once again. To stand back up after repeated failure and achieve success once again.",
+    # If you can adhere to a 5-year plan that you set today, you aren't living up to your potential.
+    "You must be an A+ in order to accomplish a C-level, 5 year plan entirely.",
+    "If it seems like you're doing everything right and you're killing the game all the time, you aren't pushing yourself hard enough.",
+    "It takes 120% to reach 100%",
+    "Be determined through calm-- meet situations without tenseness, yet not recklessly. Your spirited settled, yet unbiased.",
+    "Success is 99% HARD WORK. Sit down. Shut up. Suck it up and get back to work.",
+    "If you don't like something, change it. If you can't change it, change your attitude. Don't complain.",
+
+    # Motivation
+    "Be better than you were yesterday.",
+    "110%. Every day. Exceed your limits and grow-- Plus Ultra.",
+    "It's about how much you can get hit, and still get back up and keep going.",
+    "Good effort today. Do better tomorrow.",
+    "Proud, but never Satisfied.",
+    "There is no battle you cannot win, but also no battle you will win for sure.",
+
+    # On Respect, and self-respect:
+    # http:#www.innergladiator.com/demanding-respect/
+    "In order to be heard, you must first listen.",
+    # ^ Listen to them first, then they will like you. And when they like you, they'll listen to you in return. And when they listen, they will resepct.
+    "It's not about demanding or gaining respect from a person- it's about becoming a respectable person yourself.",
+    "In order to become respected, you must first respect yourself.",
+    # ^ And respecting yourself entails becoming a person you can respect, first. And to do that:
+    "Strive to create more value than you consume. People will see that you're putting in effort into your life, that you're a responsible person, and taht you go after what you want. Live your values.",
+         # ^ when your peers see that, they'll gladly help you out when you need it. They'll listen to you, know your values and will treat you with the respect you deserve, even if you aren't the 'nicest' guy.
+]
+
+# quotes contributed by Andee
+andee_messages = [
+    # John A. Shedd
+    "A ship in a harbor is safe-- but that is not what ships are built for.",
+]
+
+# quotes contributed by Sandy
+sandy_messages = [
+    # Bob Dylan, who allegedly heard it from Steve Jobs
+    "The loser now, will be the winner later.",
+]
+
+# merge quotes
+general_motivational_quotes = []
+
+general_motivational_quotes.extend(general_messages)
+general_motivational_quotes.extend(andee_messages)
+general_motivational_quotes.extend(sandy_messages)

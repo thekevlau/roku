@@ -25,7 +25,7 @@ The pool of quotes randomly selected from differs based on the specific user's p
 
 Activate the Python Virtual Environment for dependency/python package management:
 ```
-source personal_coach/bin/activate
+source roku/bin/activate
 ```
 
 Run the script:
