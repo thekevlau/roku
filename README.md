@@ -37,5 +37,8 @@ python send_sms.py
 ---
 
 #### Contributing
-I'm very much still learning programming and would be very interested in any good-programming-practice suggestions or architectural design feedback you might have!
-Send me an email or submit a pull request any time!
+Feel free to push directly to master **when editting your individual quote file**.
+Otherwise, please submit pull requests so that I can review before merging. This is mainly for code-review and learning purposes.
+
+I'm very interested in any good-programming-practice suggestions or product feedback or architectural design feedback you might have!
+You are more than welcome to open an issue, submit a pull request or send me a message, any time!
