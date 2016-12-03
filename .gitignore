@@ -1,4 +1,4 @@
 .DS_Store
-/*.pyc
+*.pyc
 phone_numbers.py
 twilio_creds.py

@@ -1,5 +1,5 @@
 kevin_quotes = [
-# High Level Coach Style Reminders and Feedback- My Current State and Goals
+    # High Level Coach Style Reminders and Feedback- My Current State and Goals
     "You are putting off the Art of War in order to focus on school right now. Focus on crushing it.",
     "School comes first. Then comes job seeking. Studying the interesting stuff-- finance, badminton, strategy is the reward to follow.",
     "The real work only begins after your brain and body are screaming that they are at their limits. Your real max is 3x where you think it is.",

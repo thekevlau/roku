@@ -1,5 +1,9 @@
-general_messages = [
-    # Reminders for Key Life Lessons
+# amalgamated quotes list
+general_motivational_quotes = []
+
+kevin_quotes = [
+    ## Reminders for Key Life Lessons
+    # My Brain
     "It is important to regularly stop, re-orient and re-focus on one's goals. This is how one achieves long term focus.",
     "Discipline opens the doors to infinite possibilities. Stay sharp.",
     "You can learn anything. You were built for it!",
@@ -9,22 +13,34 @@ general_messages = [
     "Always be the weakest person in the room and focus on sponging from everyone else. Revel in your failure as it is the symptom of growth.",
     "To be able to endure the pain of being a repeated failure is not strength. To be strong is when you are able to achieve success once again. To stand back up after repeated failure and achieve success once again.",
     # If you can adhere to a 5-year plan that you set today, you aren't living up to your potential.
-    "You must be an A+ in order to accomplish a C-level, 5 year plan entirely.",
     "If it seems like you're doing everything right and you're killing the game all the time, you aren't pushing yourself hard enough.",
     "It takes 120% to reach 100%",
-    "Be determined through calm-- meet situations without tenseness, yet not recklessly. Your spirited settled, yet unbiased.",
     "Success is 99% HARD WORK. Sit down. Shut up. Suck it up and get back to work.",
+
+    # Motivation Chrome Extension
     "If you don't like something, change it. If you can't change it, change your attitude. Don't complain.",
 
-    # Motivation
+    # Book of Five Rings, I think
+    "Be determined through calm-- meet situations without tenseness, yet not recklessly. Your spirited settled, yet unbiased.",
+
+
+    # Tim Ferris Podcast
+    "You must be an A+ in order to accomplish a C-level, 5 year plan entirely.",
+    # Haikyuu
+    "In order to enjoy competition, you must become strong.",
+
+
+    ## Motivation
     "Be better than you were yesterday.",
     "110%. Every day. Exceed your limits and grow-- Plus Ultra.",
     "It's about how much you can get hit, and still get back up and keep going.",
     "Good effort today. Do better tomorrow.",
+    # Alphalete Video
     "Proud, but never Satisfied.",
+    # Haikyuu
     "There is no battle you cannot win, but also no battle you will win for sure.",
 
-    # On Respect, and self-respect:
+    ## On Respect, and self-respect:
     # http:#www.innergladiator.com/demanding-respect/
     "In order to be heard, you must first listen.",
     # ^ Listen to them first, then they will like you. And when they like you, they'll listen to you in return. And when they listen, they will resepct.
@@ -36,20 +52,19 @@ general_messages = [
 ]
 
 # quotes contributed by Andee
-andee_messages = [
+andee_quotes = [
     # John A. Shedd
     "A ship in a harbor is safe-- but that is not what ships are built for.",
 ]
 
 # quotes contributed by Sandy
-sandy_messages = [
+sandy_quotes = [
     # Bob Dylan, who allegedly heard it from Steve Jobs
     "The loser now, will be the winner later.",
 ]
 
 # merge quotes
-general_motivational_quotes = []
 
-general_motivational_quotes.extend(general_messages)
-general_motivational_quotes.extend(andee_messages)
-general_motivational_quotes.extend(sandy_messages)
+general_motivational_quotes.extend(kevin_quotes)
+general_motivational_quotes.extend(andee_quotes)
+general_motivational_quotes.extend(sandy_quotes)

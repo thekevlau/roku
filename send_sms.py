@@ -5,7 +5,7 @@ from twilio.rest import TwilioRestClient
 from quotes import avatar_quotes
 from quotes import general_motivational_quotes
 from quotes import kevin_quotes
-from quotes import quotes_for_sandy
+from quotes import sandy_quotes
 import twilio_creds
 import phone_numbers
 
@@ -17,7 +17,7 @@ client = TwilioRestClient(account=twilio_creds.twilio_account,
 avatar_quotes = avatar_quotes.avatar_quotes
 general_motivational_quotes = general_motivational_quotes.general_motivational_quotes
 kevin_quotes = kevin_quotes.kevin_quotes
-quotes_for_sandy = quotes_for_sandy.quotes_for_sandy
+sandy_quotes = sandy_quotes.sandy_quotes
 
 # get local copy of phone numbers dict, mapping username : phone number
 phone_numbers = phone_numbers.phone_numbers
@@ -42,7 +42,7 @@ for k, v in phone_numbers.iteritems():
         shahmeer_messages.extend(avatar_quotes)
         random_message = (random.choice(shahmeer_messages))
     elif k == ("sandy"):
-        random_message = (random.choice(quotes_for_sandy))
+        random_message = (random.choice(sandy_quotes))
 
     print("sending the following message to %s at %s: %s" % (k, v, random_message))
 
