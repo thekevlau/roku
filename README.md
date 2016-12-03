@@ -23,6 +23,28 @@ The pool of quotes randomly selected from differs based on the specific user's p
 
 #### Local Deployment
 
+Clone the repo:
+```
+git clone git@github.com:thekevlau/roku.git
+```
+
+In the main directory, create a python file called "twilio_creds.py" with two variables "twilio_account" and "twilio_token" that looks like:
+```python
+#twilio_creds.py
+twilio_account = "some_account_hash_you_got_from_twilio"
+twilio_token = "some_token_hash_you_got_from_twilio"
+```
+
+Also in the main directory, create a python file called "phone_numbers.py" with a dictionary mapping names (strings) to phone numbers (strings). For example:
+```python
+# phone_numbers.py
+phone_numbers = {
+  "roku": "123-456-7890",
+  "aang": "222-333-4444",
+  "korra": "555-666-7777",
+}
+```
+
 Activate the Python Virtual Environment for dependency/python package management:
 ```
 source roku/bin/activate
