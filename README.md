@@ -9,8 +9,8 @@ Thus, many of the macro-level thoughts -- philosphical realizations, ideas about
 
 Project Roku is a service that remembers these thoughts for the individual and sends them regular text message reminders in order to keep them top-of-mind for the individual.
 
-*This project is named for Avatar Roku, the wise mentor and advisor to Avatar Aang. Aang would often go to Roku for advice during times of distress or uncertainty.
-However in the avatar universe, Aang is Roku's reincarnation, thus Roku is just helping Aang remember what he really already knows and realized in the past (from his previous life).*
+*This project is named for [Avatar Roku](http://avatar.wikia.com/wiki/Roku), the wise mentor and advisor to [Avatar Aang](http://avatar.wikia.com/wiki/Aang). Aang would often go to Roku for [advice](https://www.youtube.com/watch?v=ol040QSq_kk) during times of distress or uncertainty.
+However in the Avatar the Last Airbender universe, Aang is Roku's reincarnation, thus Roku is just helping Aang remember what he really already knows and realized in the past (from his previous life).*
 
 ---
 
