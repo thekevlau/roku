@@ -1,3 +1,6 @@
+# Sandy's Personal Quotes
+# Personal Quotes are only sent to the specific individual
+
 sandy_quotes = [
     "Love is here.",
     "Protecting what has been won, clinging to nothing.",

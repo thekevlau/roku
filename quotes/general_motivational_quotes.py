@@ -29,6 +29,8 @@ kevin_quotes = [
     # Haikyuu
     "In order to enjoy competition, you must become strong.",
 
+    # Quote by Stephen McCranie, sourced from karenx.com
+    "The master has failed more times than the beginner has even tried",
 
     ## Motivation
     "Be better than you were yesterday.",
@@ -51,13 +53,13 @@ kevin_quotes = [
          # ^ when your peers see that, they'll gladly help you out when you need it. They'll listen to you, know your values and will treat you with the respect you deserve, even if you aren't the 'nicest' guy.
 ]
 
-# quotes contributed by Andee
+# quotes contributed to the public quote library by Andee
 andee_quotes = [
     # John A. Shedd
     "A ship in a harbor is safe-- but that is not what ships are built for.",
 ]
 
-# quotes contributed by Sandy
+# quotes contributed to the public quote library by Sandy
 sandy_quotes = [
     # Bob Dylan, who allegedly heard it from Steve Jobs
     "The loser now, will be the winner later.",
