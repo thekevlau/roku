@@ -12,6 +12,7 @@ kevin_quotes = [
     "You don't rise to the level of your hopes, you fall to the level your training",
     "Always be the weakest person in the room and focus on sponging from everyone else. Revel in your failure as it is the symptom of growth.",
     "To be able to endure the pain of being a repeated failure is not strength. To be strong is when you are able to achieve success once again. To stand back up after repeated failure and achieve success once again.",
+    "Talent x Effort = Skill. Skill x Effort = Achievement.",
     # If you can adhere to a 5-year plan that you set today, you aren't living up to your potential.
     "If it seems like you're doing everything right and you're killing the game all the time, you aren't pushing yourself hard enough.",
     "It takes 120% to reach 100%",
@@ -49,7 +50,7 @@ kevin_quotes = [
     "It's not about demanding or gaining respect from a person- it's about becoming a respectable person yourself.",
     "In order to become respected, you must first respect yourself.",
     # ^ And respecting yourself entails becoming a person you can respect, first. And to do that:
-    "Strive to create more value than you consume. People will see that you're putting in effort into your life, that you're a responsible person, and taht you go after what you want. Live your values.",
+    "Strive to create more value than you consume. People will see that you're putting in effort into your life, that you're a responsible person, and that you go after what you want. Live your values.",
          # ^ when your peers see that, they'll gladly help you out when you need it. They'll listen to you, know your values and will treat you with the respect you deserve, even if you aren't the 'nicest' guy.
 ]
 
