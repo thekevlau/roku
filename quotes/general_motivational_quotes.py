@@ -1,6 +1,7 @@
 # amalgamated quotes list
 general_motivational_quotes = []
 
+# quotes contributed to the public quote library by Kevin
 kevin_quotes = [
     ## Reminders for Key Life Lessons
     # My Brain
@@ -29,6 +30,13 @@ kevin_quotes = [
     "You must be an A+ in order to accomplish a C-level, 5 year plan entirely.",
     # Haikyuu
     "In order to enjoy competition, you must become strong.",
+    "There is no battle you cannot win, but also no battle you will win for sure.",
+
+    # Fearless 霍元甲
+    "The true purpose of competition is to better understand yourself, because your only true opponent in life is yourself.",
+
+    # Peter Buhr
+    "Know your craft. There is no excuse-- you should know everything there is to know and then some, about your craft.",
 
     # Quote by Stephen McCranie, sourced from karenx.com
     "The master has failed more times than the beginner has even tried",
@@ -40,8 +48,7 @@ kevin_quotes = [
     "Good effort today. Do better tomorrow.",
     # Alphalete Video
     "Proud, but never Satisfied.",
-    # Haikyuu
-    "There is no battle you cannot win, but also no battle you will win for sure.",
+
 
     ## On Respect, and self-respect:
     # http:#www.innergladiator.com/demanding-respect/
@@ -67,7 +74,6 @@ sandy_quotes = [
 ]
 
 # merge quotes
-
 general_motivational_quotes.extend(kevin_quotes)
 general_motivational_quotes.extend(andee_quotes)
 general_motivational_quotes.extend(sandy_quotes)
