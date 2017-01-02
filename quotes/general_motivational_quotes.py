@@ -32,7 +32,7 @@ kevin_quotes = [
     "In order to enjoy competition, you must become strong.",
     "There is no battle you cannot win, but also no battle you will win for sure.",
 
-    # Fearless 霍元甲
+    # Fearless
     "The true purpose of competition is to better understand yourself, because your only true opponent in life is yourself.",
 
     # Peter Buhr
