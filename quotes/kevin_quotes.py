@@ -1,4 +1,8 @@
 kevin_quotes = [
+    # Termly Goals
+
+    "Your focus is finance readings, roku, job hunting and learning stats/ML/AI",
+
     # My Current State and Goals
     # High Level Coach Style Reminders and Feedback
     "You are putting off the Art of War in order to focus on school right now. Focus on crushing it.",
@@ -23,6 +27,12 @@ kevin_quotes = [
     "Ask yourself-- are you uncomfortable right now?. If the answer is yes, you're exactly where you need to be right now.",
     # better than this, is the confidence that you can accomplish anything.
 ]
+
+
+# some times the feedback loop is simple.
+# when you fail, there's no need to look back and go through this ego-centric crisis of "how did i fail?" "i've done it before." "i expected better of you."
+
+# No. the key here is you failed and you messed up. Ok. This means you are doing *something* wrong. Your process that you've been developing up until this point didn't work, or rather it isn't working anymore. Ok. So that means you have to fix it. Change things up. Try something new. Adapt.
 
 # interesting questions:
 # what makes people interesting?
