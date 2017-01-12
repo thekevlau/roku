@@ -27,23 +27,24 @@ selected_message = (random.choice(general_motivational_quotes))
 
 for k, v in phone_numbers.iteritems():
     random_message = selected_message
-    if k == ("kevin"):
+    if k == "kevin":
         # explicitly COPY the list, versus make a ref to it
         klau_messages = list(general_motivational_quotes)
         klau_messages.extend(kevin_quotes)
         random_message = (random.choice(klau_messages))
-    elif k == ("alex"):
+    elif k == "alex":
         # only avatar quotes
         random_message = (random.choice(avatar_quotes))
-    elif k == ("shahmeer"):
+    elif k == "shahmeer":
         # all messages plus avatar quotes
         # explicitly COPY the list, versus make a ref to it
         shahmeer_messages = list(general_motivational_quotes)
         shahmeer_messages.extend(avatar_quotes)
         random_message = (random.choice(shahmeer_messages))
-    elif k == ("sandy"):
+    elif k == "sandy":
         random_message = (random.choice(sandy_quotes))
 
+    random_message = "Remember: " + random_message
     print("sending the following message to %s at %s: %s" % (k, v, random_message))
 
     client.messages.create(
