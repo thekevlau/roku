@@ -10,6 +10,10 @@ import twilio_creds
 import phone_numbers
 
 
+if not (random.random() <= (1 / 720.0)):
+    print("not this time")
+    quit()
+
 client = TwilioRestClient(account=twilio_creds.twilio_account,
                           token=twilio_creds.twilio_token)
 
