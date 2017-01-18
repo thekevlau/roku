@@ -29,4 +29,5 @@ sandy_quotes = [
     "Movement disguises dukha",
     "Mara I see you",
     "Simple and ease [should be the way of your practice]",
+    "Today’s enlightenment is tomorrow’s mistake",
 ]
