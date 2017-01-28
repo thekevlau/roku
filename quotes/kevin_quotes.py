@@ -15,6 +15,9 @@ kevin_quotes = [
     "Swimmers, they have these daily rituals exercises they do before practice. Michael Phelps, he did 3 or 4 of regular guys' rituals every day.",
     "You become what you think about all day long. Be careful about what you think about-- don't think about anything you don't want to manifest in your life",
     "Why are you afraid to ask for help? Say they refuse you--so what? You didn't have it anyways! Suppose they say yes-- that could be the turning factor.",
+    # Just because you think you are ambitious, doesn't make you better or any more deserving than anyone else. You are entitled to nothing.
+    """Only actions and results differentiates people. Thoughts alone mean nothing.""",
+    "You are entitled to nothing. You want something? Work your ass off.",
 
     # Things I wish to always be at the top of my conciousness
     # Things I want to repeat to myself over and over again so that I don't forget.

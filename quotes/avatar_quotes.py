@@ -6,6 +6,7 @@ avatar_quotes = [
     "Let go your earthly tether. Enter the void. Empty, and become wind.",
 
     # Iroh, Avatar the Last Airbender
+    "Remember your basics! They are your greatest weapons.",
     "Sometimes life is like this dark tunnel- you can't always see the light at the end of the tunnel. But if you just keep moving, you will come to a better place.",
     "It is important to draw wisdom from different places. If you take it from only one place it will become rigid and stale.",
     "In the darkest times, hope is something you give yourself. That is the meaning of inner strength.",

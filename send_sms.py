@@ -35,6 +35,7 @@ for k, v in phone_numbers.iteritems():
         # explicitly COPY the list, versus make a ref to it
         klau_messages = list(general_motivational_quotes)
         klau_messages.extend(kevin_quotes)
+        klau_messages.extend(avatar_quotes)
         random_message = (random.choice(klau_messages))
     elif k == "alex":
         # only avatar quotes
