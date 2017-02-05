@@ -30,4 +30,10 @@ sandy_quotes = [
     "Mara I see you",
     "Simple and ease [should be the way of your practice]",
     "Today’s enlightenment is tomorrow’s mistake",
+    """
+    The way that you know if you're meditating in action is to see if you can
+    stop on a dime any time you want. You should be able to go, at any time,
+    into an absolutely stable, motionless state without struggle if you're
+    really "meditating in daily life."
+    """,
 ]
