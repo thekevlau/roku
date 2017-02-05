@@ -6,7 +6,7 @@ avatar_quotes = [
     "Let go your earthly tether. Enter the void. Empty, and become wind.",
 
     # Iroh, Avatar the Last Airbender
-    "Remember your basics! They are your greatest weapons.",
+    "Remember your firebending basics, Zuko! They are your greatest weapons.",
     "Sometimes life is like this dark tunnel- you can't always see the light at the end of the tunnel. But if you just keep moving, you will come to a better place.",
     "It is important to draw wisdom from different places. If you take it from only one place it will become rigid and stale.",
     "In the darkest times, hope is something you give yourself. That is the meaning of inner strength.",
@@ -15,7 +15,7 @@ avatar_quotes = [
     "Its time for you to look inward and begin asking yourself the big questions: Who are you? and What do you want?",
     "Perfection and power are overrated. I think you are very wise to choose happiness and love. There are reasons each of us are born. we have to find those reasons.",
     "Pride is not the opposite of shame, but its source. True humility is the only antidote to shame.",
-    "There's nothing wrong with a life of peace and prosperity. I suggest you think about waht it is that you want from our life, and why.",
+    "There's nothing wrong with a life of peace and prosperity. I suggest you think about what it is you want from your life, and why.",
     "Leaves from the vine, falling so slow...like fragile, tiny shells drifting in the foam. Little soldier boy...come marching home. Brave soldier boy...comes marching home.",
     "You're looking at the rare white dragon bush. Its leaves make a tea so delicious it's heartbreaking!....That, or its the white jade bush, which is poisonous.",
     "I always tried to tell you that Pai Sho is more than just a game.",
