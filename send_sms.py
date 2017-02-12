@@ -10,7 +10,7 @@ import twilio_creds
 import phone_numbers
 
 
-if not (random.random() <= (1 / 720.0)):
+if not (random.random() <= (1 / 360.0)):
     print("not this time")
     quit()
 

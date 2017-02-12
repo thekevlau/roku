@@ -32,6 +32,8 @@ kevin_quotes = [
     "Ask yourself-- are you uncomfortable right now?. If the answer is yes, you're exactly where you need to be right now.",
     # better than this, is the confidence that you can accomplish  anything.
     "Be warm first, then competent. People need to trust you first, then they can respect your competence for only then will your gifts be seen as a gift and not a threat.",
+    "You are intelligent. You are capable. You can learn and do anything.",
+    "How you do one thing is how you do everything.",
 ]
 
 
