@@ -29,11 +29,22 @@ sandy_quotes = [
     "Movement disguises dukha",
     "Mara I see you",
     "Simple and ease [should be the way of your practice]",
-    "Today’s enlightenment is tomorrow’s mistake",
+    "Today's enlightenment is tomorrow's mistake",
     """
     The way that you know if you're meditating in action is to see if you can
     stop on a dime any time you want. You should be able to go, at any time,
     into an absolutely stable, motionless state without struggle if you're
     really "meditating in daily life."
+    """,
+    """
+    If you're not okay with the current moment lasting forever, then Stop and
+    look more closely.
+    """,
+    """
+    Only one moment exists, and only thing to do is to apply "the technique" to
+    an arising in the Now. (All arisings can be deconstructed into the Now. To
+    practice, there is only one thing to do. Apply any technique of your
+    choosing, once, to the current moment. That is all. No need to beat yourself
+    up over not having practice correctly or wasted time/opprtunities!)
     """,
 ]
