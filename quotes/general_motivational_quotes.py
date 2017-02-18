@@ -41,8 +41,7 @@ kevin_quotes = [
         your attitude. Don't complain.""",
 
     # Bruce Lee
-    """I'm not in this world to live up to your expectations and you're not
-        in this world to live up to mine.""",
+    """I'm not in this world to live up to your expectations and you're not in this world to live up to mine.""",
 
     # Book of Five Rings, I think
     """Be determined through calm-- meet situations without tenseness, yet
