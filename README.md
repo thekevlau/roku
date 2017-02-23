@@ -30,7 +30,7 @@ git clone git@github.com:thekevlau/roku.git
 
 In the main directory, create a python file called "twilio_creds.py" with two variables "twilio_account" and "twilio_token" that looks like:
 ```python
-#twilio_creds.py
+# twilio_creds.py
 twilio_account = "some_account_hash_you_got_from_twilio"
 twilio_token = "some_token_hash_you_got_from_twilio"
 ```
@@ -66,6 +66,22 @@ Otherwise, please submit pull requests so that I can review before merging. This
 
 ##### Code Style Guide
 The project is currently 100% python and I have taken care to adhere very stringently to python's pep8 guidelines. Please do the same!
+
+###### Quote Formatting
+Quote strings longer than 80 characters should be split into multi-line strings to keep with pep8's max number of characters per line.
+There are a [wide variety of ways](https://www.smallsurething.com/multi-line-strings-in-python/) to accomplish this idiomatically in python, but we use Tuple syntax instead multi-line strings (triple quotes) since with multi-line strings, any new lines used for code formatting purposes are interpretted as part of the string. Tuple syntax removes this, however introduces the need to include spaces explicitly within the string where appropriate. For ease of extension and to avoid cases where you might forget to add this space, stylistically we will choose to prepend spaces to the following line, as opposed to appending to the line before, as in the example below.
+
+```python
+"""example of a
+  multi-line
+  string"""
+```
+
+```python
+k = ("example of"
+  " a multi-line string"
+  " using tuple syntax")
+```
 
 ##### General Feedback
 I'm very interested in any good-programming-practice suggestions or product feedback or architectural design feedback you might have!
