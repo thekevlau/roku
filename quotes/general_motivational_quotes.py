@@ -24,7 +24,7 @@ kevin_quotes = [
     "Talent x Effort = Skill. Skill x Effort = Achievement.",
     ("If it seems like you're doing everything right and you're killing the"
         " game all the time, you aren't pushing yourself hard enough."),
-    "It takes 120% to reach 100%",
+    "You have to work 120% to reach 100%",
     ("Success is 99% HARD WORK. Sit down. Shut up. Suck it up and get back"
         " to work."),
     "Remember your basics! They are your greatest weapons.",
@@ -49,8 +49,7 @@ kevin_quotes = [
         " not recklessly. Your spirited settled, yet unbiased."),
 
     # Tim Ferris Podcast
-    ("You must be an A+ in order to accomplish a C-level, 5 year plan"
-        " entirely."),
+    "Use it or lose it.",
 
     # Haikyuu
     "In order to enjoy competition, you must become strong.",

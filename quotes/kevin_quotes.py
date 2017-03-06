@@ -64,6 +64,14 @@ kevin_quotes = [
         " seen as a gift and not a threat."),
     "You are intelligent. You are capable. You can learn and do anything.",
     "How you do one thing is how you do everything.",
+
+    # Adam Robinson on the Tim Ferris show
+    ("There is a difference between informed simplicity and ignorant"
+        " simplicity-- a simplicity reached by synthesizing the deep and"
+        " profound into something concise and powerful. Genius is this"
+        " childlike simplicity."),
+    "Completely master a few skills. Then apply them in new ways, very well.",
+    "What would you do if you knew you couldn't fail?",
 ]
 
 
@@ -76,3 +84,6 @@ kevin_quotes = [
 # what makes people interesting?
 # what interesting things are people working on?
 # role models-- they are interesting.
+
+# keep thinking about the world, in interesting new ways
+# find new and intriuging patterns, which your mind is built to do
