@@ -11,6 +11,9 @@ kevin_quotes = [
         " Vulnerability."),
     ("School comes first. Then comes job seeking. Studying the interesting"
         " stuff-- finance, badminton, strategy is the reward to follow."),
+    # Tips from Hongwei
+    ("You have the breadth, now choose something and go deep. Spend 2 years"
+        "working very hard and learning a ton about one thing."),
 
     # High Level Coach Style Reminders and Feedback
     ("The real work only begins after your brain and body are screaming that"
@@ -72,6 +75,14 @@ kevin_quotes = [
         " childlike simplicity."),
     "Completely master a few skills. Then apply them in new ways, very well.",
     "What would you do if you knew you couldn't fail?",
+    # This gives you infinite power because all you want is to delight
+    # the other person! You cannot lose :)
+    "Find fun, enthusiasm and delight in everything that you do by making it all about fun, enthusiasm and delight for the other person. All encounters are about delighting the other person. Focus on this first and foremost to make the connection.",
+    "Make an effort to connect with EVERYBODY no matter how fleeting the connection is. Lean into each moment, encounter and everyone you meet expecting magic or miracles.",
+    "You can play to not-lose, or you can play to win.",
+    "Everyone around you is fighting a war that you know nothing about.",
+    "Every human has a 5 second window after they have an idea of doing something different, after which the brain wakes up and sabotages any possibility of change in action.",
+    "Everyone wants to be a beast, until it is time to do what real beasts do.",
 ]
 
 

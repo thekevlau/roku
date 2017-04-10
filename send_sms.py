@@ -3,7 +3,7 @@ import random
 from twilio.rest import TwilioRestClient
 
 from quotes import avatar_quotes
-from quotes import general_motivational_quotes
+from quotes import general_quotes
 from quotes import kevin_quotes
 from quotes import sandy_quotes
 import twilio_creds
@@ -15,7 +15,7 @@ client = TwilioRestClient(account=twilio_creds.twilio_account,
 
 # get local copies of dictionaries
 avatar_quotes = avatar_quotes.avatar_quotes
-general_motivational_quotes = general_motivational_quotes.general_motivational_quotes
+general_quotes = general_quotes.general_quotes
 kevin_quotes = kevin_quotes.kevin_quotes
 sandy_quotes = sandy_quotes.sandy_quotes
 
@@ -30,13 +30,13 @@ for i in xrange(100000):
         continue
 
     # randomly select message
-    selected_message = (random.choice(general_motivational_quotes))
+    selected_message = (random.choice(general_quotes))
 
     for k, v in phone_numbers.iteritems():
         random_message = selected_message
         if k == "kevin":
             # explicitly COPY the list, versus make a ref to it
-            klau_messages = list(general_motivational_quotes)
+            klau_messages = list(general_quotes)
             klau_messages.extend(kevin_quotes)
             klau_messages.extend(avatar_quotes)
             random_message = (random.choice(klau_messages))
@@ -48,7 +48,7 @@ for i in xrange(100000):
         elif k == "shahmeer":
             # all messages plus avatar quotes
             # explicitly COPY the list, versus make a ref to it
-            shahmeer_messages = list(general_motivational_quotes)
+            shahmeer_messages = list(general_quotes)
             shahmeer_messages.extend(avatar_quotes)
             random_message = (random.choice(shahmeer_messages))
 

@@ -1,6 +1,8 @@
+# Quotes = things we want to remember or keep top of mind
 # this is the publc quote library
 # amalgamated quotes list
-general_motivational_quotes = []
+
+general_quotes = []
 
 # quotes contributed to the public quote library by Kevin
 kevin_quotes = [
@@ -106,6 +108,6 @@ sandy_quotes = [
 ]
 
 # merge quotes
-general_motivational_quotes.extend(kevin_quotes)
-general_motivational_quotes.extend(andee_quotes)
-general_motivational_quotes.extend(sandy_quotes)
+general_quotes.extend(kevin_quotes)
+general_quotes.extend(andee_quotes)
+general_quotes.extend(sandy_quotes)
