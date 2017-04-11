@@ -5,12 +5,11 @@ import pytz
 from twilio.rest import TwilioRestClient
 
 from quotes import alex_quotes
-import twilio_creds
-import phone_numbers
+from twilio_creds import twilio_account, twilio_token
+from phone_numbers import phone_numbers
 
 
-client = TwilioRestClient(account=twilio_creds.twilio_account,
-                          token=twilio_creds.twilio_token)
+client = TwilioRestClient(account=twilio_account, token=twilio_token)
 
 # note: cron job runs once per minute
 
@@ -19,8 +18,9 @@ eastern = pytz.timezone('US/Eastern')
 # dummy timezone used for testing
 # amsterdam = pytz.timezone('Europe/Amsterdam')
 
-# get local copy of dictionary
+# get local copy of dictionaries
 alex_quotes = alex_quotes.alex_quotes
+# phone_numbers = phone_numbers.phone_numbers
 
 # Get today's day
 today_day = calendar.day_name[date.today().weekday()]

@@ -2,18 +2,17 @@
 
 from twilio.rest import TwilioRestClient
 
-import twilio_creds
-import phone_numbers
+from twilio_creds import twilio_account, twilio_token
+from phone_numbers import phone_numbers
 
 
-client = TwilioRestClient(account=twilio_creds.twilio_account,
-                          token=twilio_creds.twilio_token)
+client = TwilioRestClient(account=twilio_account, token=twilio_token)
 
 # phone_numbers = phone_numbers.phone_numbers
 
 
 def send_sms_to_all(original_message):
-    for name, phone in phone_numbers.phone_numbers.iteritems():
+    for name, phone in phone_numbers.iteritems():
         salutation = "Hello %s! " % (name.title())
         message = salutation + original_message
         print("sending the following message to %s at %s: %s" % (name, phone,  message))

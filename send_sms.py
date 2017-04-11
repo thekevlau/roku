@@ -6,21 +6,17 @@ from quotes import avatar_quotes
 from quotes import general_quotes
 from quotes import kevin_quotes
 from quotes import sandy_quotes
-import twilio_creds
-import phone_numbers
+from twilio_creds import twilio_account, twilio_token
+from phone_numbers import phone_numbers
 
 
-client = TwilioRestClient(account=twilio_creds.twilio_account,
-                          token=twilio_creds.twilio_token)
+client = TwilioRestClient(account=twilio_account, token=twilio_token)
 
-# get local copies of dictionaries
+# access local copies of dictionaries
 avatar_quotes = avatar_quotes.avatar_quotes
 general_quotes = general_quotes.general_quotes
 kevin_quotes = kevin_quotes.kevin_quotes
 sandy_quotes = sandy_quotes.sandy_quotes
-
-# get local copy of phone numbers dict, mapping username : phone number
-phone_numbers = phone_numbers.phone_numbers
 
 # send TWO messages between 7am and 7pm EST, so 12 hours or 720 minutes
 # cron job runs once per minute,
