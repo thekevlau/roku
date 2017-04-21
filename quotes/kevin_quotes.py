@@ -14,6 +14,10 @@ kevin_quotes = [
     # Tips from Hongwei
     ("You have the breadth, now choose something and go deep. Spend 2 years"
         "working very hard and learning a ton about one thing."),
+    ("Go all out. Hold nothing back. Stop being afraid or embarassed of"
+        " failing. Going all out is a beautiful thing. Fuck the haters. Only"
+        " those who actually spend time in the trenches have the right to"
+        " judge."),
 
     # High Level Coach Style Reminders and Feedback
     ("The real work only begins after your brain and body are screaming that"
@@ -42,6 +46,11 @@ kevin_quotes = [
     ("Only actions and results differentiates people. Thoughts alone mean"
         " nothing."),
     "You are entitled to nothing. You want something? Work your ass off.",
+        # Look in the mirror bro
+    ("Stop subconciously fooling yourself into this false sense of security,"
+        " a false sense of having made it and that you're ok financially,"
+        " career-wise, or life-wise. Look in the mirror. You have"
+        " accomplished nothing and have a long, long way to go."),
 
     # Things I wish to always be at the top of my conciousness
     # Things I want to repeat to myself over and over again so that I don't forget.
