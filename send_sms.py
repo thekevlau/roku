@@ -25,7 +25,7 @@ for i in xrange(100000):
         print("not this time")
         continue
 
-    # randomly select message
+    # randomly select message from public general quotes library
     selected_message = (random.choice(general_quotes))
 
     for k, v in phone_numbers.iteritems():
@@ -34,7 +34,6 @@ for i in xrange(100000):
             # explicitly COPY the list, versus make a ref to it
             klau_messages = list(general_quotes)
             klau_messages.extend(kevin_quotes)
-            klau_messages.extend(avatar_quotes)
             random_message = (random.choice(klau_messages))
         # Alex has a different use case where he just wants avatar quotes
         # at a regular time in the mornings, so this functionality has been
@@ -51,6 +50,8 @@ for i in xrange(100000):
         random_message = "Remember: " + random_message
 
         # sandy doesn't want the "remember" prefix
+        # we have a separate script running for sandy already but he doesnt
+        # mind getting more of them so we'll keep this in here for now
         if k == "sandy":
             random_message = (random.choice(sandy_quotes))
 
