@@ -6,6 +6,7 @@ from quotes import avatar_quotes
 from quotes import general_quotes
 from quotes import kevin_quotes
 from quotes import sandy_quotes
+from quotes import andee_quotes
 from twilio_creds import twilio_account, twilio_token
 from phone_numbers import phone_numbers
 
@@ -17,6 +18,7 @@ avatar_quotes = avatar_quotes.avatar_quotes
 general_quotes = general_quotes.general_quotes
 kevin_quotes = kevin_quotes.kevin_quotes
 sandy_quotes = sandy_quotes.sandy_quotes
+andee_quotes = andee_quotes.andee_quotes
 
 # send TWO messages between 7am and 7pm EST, so 12 hours or 720 minutes
 # cron job runs once per minute,
@@ -46,6 +48,12 @@ for i in xrange(100000):
             shahmeer_messages = list(general_quotes)
             shahmeer_messages.extend(avatar_quotes)
             random_message = (random.choice(shahmeer_messages))
+        elif k == "andee":
+            # all messages plus avatar quotes
+            # explicitly COPY the list, versus make a ref to it
+            andee_messages = list(general_quotes)
+            andee_messages.extend(avatar_quotes)
+            random_message = (random.choice(andee_messages))
 
         random_message = "Remember: " + random_message
 
