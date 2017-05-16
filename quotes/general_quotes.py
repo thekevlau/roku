@@ -71,6 +71,10 @@ kevin_quotes = [
     # Quote by Stephen McCranie, sourced from karenx.com
     "The master has failed more times than the beginner has even tried",
 
+    # The nature of Self Discipline
+    ("Self discipline is one's willingness to accept discomfort and ability",
+        " to deal with it."),
+
     ## Motivation
     "Be better than you were yesterday.",
     "110%. Every day. Exceed your limits and grow-- Plus Ultra.",
