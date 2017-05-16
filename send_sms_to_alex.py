@@ -39,9 +39,3 @@ if (check_key in alex_quotes):
         to=phone_numbers["alex"],
         body=alex_quotes[check_key]
     )
-
-    client.messages.create(
-        from_="(647) 560-9023",
-        to=phone_numbers["kevin"],
-        body="Sent to Alex: " + alex_quotes[check_key]
-    )
