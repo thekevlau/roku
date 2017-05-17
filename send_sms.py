@@ -53,6 +53,7 @@ for i in xrange(100000):
             # explicitly COPY the list, versus make a ref to it
             andee_messages = list(general_quotes)
             andee_messages.extend(avatar_quotes)
+            andee_messages.extend(andee_quotes)
             random_message = (random.choice(andee_messages))
 
         random_message = "Remember: " + random_message
